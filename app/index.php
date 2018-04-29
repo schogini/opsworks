@@ -44,5 +44,8 @@ $az = curl_exec($curl_handle);
 <h2>Security Groups: <?php echo $sgs;?></h2> 
 <h2>AZ: <?php echo $az;?></h2> 
 <h2>Date: <?php print date("g:i A l, F j Y.");?></h2>
-
+<h2>ENV</h2>
+<pre>
+<?php echo file_get_contents("/root/file1.txt");?>
+</pre>
 <html><body>
