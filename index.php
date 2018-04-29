@@ -46,6 +46,6 @@ $az = curl_exec($curl_handle);
 <h2>Date: <?php print date("g:i:s A l, F j Y.");?></h2>
 <h2>ENV</h2>
 <pre>
-<?php echo file_get_contents("/srv/www/app1/file1.txt");?>
+<?php echo file_get_contents("/file1.txt");?>
 </pre>
 <html><body>
