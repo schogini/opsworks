@@ -36,7 +36,7 @@ curl_setopt($curl_handle,CURLOPT_URL,'http://169.254.169.254/latest/meta-data/pl
 $az = curl_exec($curl_handle);
 
 ?>
-<h1>Hello From Apache+PHP April 29</h1>
+<h1>Hello From Apache+PHP October 14, 2018</h1>
 <h2>Public IP: <?php echo $pubip;?></h2> 
 <h2>Private IP: <?php echo $privip;?></h2> 
 <h2>VPC: <?php echo $vpc.'('.$vpcr.')';?></h2> 
