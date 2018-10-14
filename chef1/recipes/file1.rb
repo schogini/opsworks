@@ -6,5 +6,5 @@ end
 file "/file1.txt" do
   mode '0644'
   action :touch
-  group 'www-data'
+  #group 'www-data'
 end
